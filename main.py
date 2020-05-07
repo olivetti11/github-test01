@@ -1,16 +1,16 @@
-basic.forever(function on_forever() {
-    basic.showLeds(`
+def on_forever():
+    basic.show_leds("""
         . . # . #
         . # # # .
         # . # . .
         . # . # .
         # . . . #
-        `)
-    basic.showLeds(`
+        """)
+    basic.show_leds("""
         # . # . .
         . # # # .
         . . # . #
         . # . # .
         # . . . #
-        `)
-})
+        """)
+basic.forever(on_forever)
